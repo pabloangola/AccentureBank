@@ -1,0 +1,23 @@
+$background: rgba(245, 212, 202, 0.34);
+$border-color: #ff6153;
+
+page-credit {
+  img {
+    width: 12em;
+    margin-top: 6em;
+  }
+
+  .scroll-content {
+    text-align: center;
+  }
+
+  p {
+    background-color: $background;
+    margin-top: 2em;
+    font-size: 1.2em;
+    color: gray;
+    border: $border-color 1px solid;
+    border-radius: 9px;
+    padding: 1em;
+  }
+}
